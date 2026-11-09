@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hynri | AI &amp; Automation Consulting</title>
+<meta name="description" content="Hynri helps businesses of any size put AI and automation to work: save time, cut busywork, and grow.">
+<meta property="og:title" content="Hynri | AI &amp; Automation Consulting">
+<meta property="og:description" content="Practical AI and automation for businesses of any size.">
+<meta property="og:type" content="website">
+<style>
+  :root{
+    --blue:#0077C0;
+    --blue-dark:#005a94;
+    --black:#0b0d10;
+    --ink:#14181d;
+    --silver:#C4CED4;
+    --mist:#f4f7f9;
+    --white:#fff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6;background:var(--white)}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+  header{background:var(--black);position:sticky;top:0;z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+  .logo{font-size:1.5rem;font-weight:800;letter-spacing:.04em;color:var(--white);text-decoration:none}
+  .logo span{color:var(--blue)}
+  .nav a.btn-sm{background:var(--blue);color:var(--white);padding:.55rem 1.1rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:.95rem}
+  .nav a.btn-sm:hover{background:var(--blue-dark)}
+
+  .hero{background:linear-gradient(160deg,var(--black) 0%,#101820 60%,#0a2b44 100%);color:var(--white);padding:110px 0 120px}
+  .eyebrow{color:var(--silver);text-transform:uppercase;letter-spacing:.18em;font-size:.8rem;font-weight:600;margin-bottom:1.2rem}
+  .hero h1{font-size:clamp(2.2rem,5.5vw,3.8rem);line-height:1.1;font-weight:800;max-width:15em}
+  .hero h1 em{font-style:normal;color:var(--blue)}
+  .hero p{margin-top:1.4rem;font-size:1.2rem;color:var(--silver);max-width:34em}
+  .cta-row{margin-top:2.2rem;display:flex;gap:14px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:.9rem 1.7rem;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem}
+  .btn-primary{background:var(--blue);color:var(--white)}
+  .btn-primary:hover{background:var(--blue-dark)}
+  .btn-ghost{border:1.5px solid var(--silver);color:var(--white)}
+  .btn-ghost:hover{background:rgba(255,255,255,.08)}
+
+  section{padding:88px 0}
+  h2{font-size:clamp(1.7rem,3.5vw,2.4rem);line-height:1.2;font-weight:800;margin-bottom:.8rem}
+  .lead{color:#4a5560;font-size:1.1rem;max-width:40em;margin-bottom:2.8rem}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+  .card{background:var(--mist);border-top:4px solid var(--blue);border-radius:10px;padding:28px}
+  .card h3{font-size:1.15rem;margin-bottom:.5rem}
+  .card p{color:#4a5560;font-size:.98rem}
+
+  .steps{background:var(--mist)}
+  .steps ol{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:26px;counter-reset:s}
+  .steps li{counter-increment:s;background:var(--white);border-radius:10px;padding:26px;border:1px solid var(--silver)}
+  .steps li::before{content:counter(s);display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--black);color:var(--white);font-weight:700;margin-bottom:.9rem}
+  .steps h3{font-size:1.08rem;margin-bottom:.3rem}
+  .steps p{color:#4a5560;font-size:.96rem}
+
+  .contact{background:var(--black);color:var(--white);text-align:center}
+  .contact p{color:var(--silver);max-width:32em;margin:0 auto 2rem;font-size:1.1rem}
+
+  footer{background:#06080a;color:var(--silver);padding:26px 0;font-size:.88rem;text-align:center}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top">HYN<span>RI</span></a>
+    <a class="btn-sm" href="#contact">Get in touch</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <p class="eyebrow">AI &amp; Automation Consulting</p>
+      <h1>Put AI to work for <em>your business.</em></h1>
+      <p>Hynri helps businesses of any size find the repetitive work AI can take over, then builds the automations that give your team their time back.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#contact">Book a free consultation</a>
+        <a class="btn btn-ghost" href="#services">See what we do</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>What Hynri does</h2>
+      <p class="lead">Practical, plain-English help getting AI and automation into the way you already work.</p>
+      <div class="cards">
+        <div class="card">
+          <h3>AI Strategy</h3>
+          <p>We look at how your business runs today and show you where AI will actually pay off, and where it won't.</p>
+        </div>
+        <div class="card">
+          <h3>Workflow Automation</h3>
+          <p>Follow-ups, data entry, scheduling, reporting: we connect your tools so routine tasks run on their own.</p>
+        </div>
+        <div class="card">
+          <h3>Custom AI Assistants</h3>
+          <p>Assistants trained on your processes and information that help your team and your customers around the clock.</p>
+        </div>
+        <div class="card">
+          <h3>Training &amp; Support</h3>
+          <p>Your team learns to use what we build with confidence, and we stay available as your needs grow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps" id="process">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="lead">A simple process, no jargon.</p>
+      <ol>
+        <li><h3>Talk</h3><p>A free conversation about your business, your goals, and what's eating your time.</p></li>
+        <li><h3>Plan</h3><p>A clear, prioritized plan with the automations worth doing first.</p></li>
+        <li><h3>Build</h3><p>We build and test the solution with your real tools and data.</p></li>
+        <li><h3>Support</h3><p>We train your team and keep improving it as you grow.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Ready to get started?</h2>
+      <p>Tell us what's slowing your business down. We'll tell you honestly whether AI can help.</p>
+      <a class="btn btn-primary" href="mailto:contact@hynri.com">Email Hynri</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> Hynri. All rights reserved.</div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
